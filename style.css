@@ -10,3 +10,5 @@ body {
     font-family: "Raleway", "sans serif";
     line-height: 1.2;
 }
+@media screen and (min-width: 600px) {
+}
