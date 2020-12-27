@@ -10,3 +10,11 @@ body {
     font-family: "Raleway", "sans serif";
     line-height: 1.2;
 }
+
+/* fin Général */
+
+@media screen and (max-width: 600px) {
+}
+
+@media screen and (min-width: 601px) {
+}
