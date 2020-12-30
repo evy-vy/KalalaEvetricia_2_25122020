@@ -20,5 +20,41 @@ a {
 }
 
 /*-------- HEADER -----------*/
+.header  {
+    padding: 0 0.3125rem;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav ul  {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-nav li  {
+    display: flex;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+a .header-nav {
+    border-bottom: 3px solid #f2f2f2;
+    padding: 3.15rem;
+    width: 11.72rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.header-nav-accomodations  {
+    color: #0065fc;
+    border-bottom: 3px solid #0065fc;
+}
+
+.header-nav-activities  {
+    border-bottom: 3px solid #f2f2f2;
+}
 /*--------- MAIN ------------*/
 /*-------- FOOTER -----------*/
