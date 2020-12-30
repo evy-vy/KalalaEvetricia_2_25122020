@@ -1,20 +1,14 @@
-/* Général */
-
+/*---------GENERAL-----------*/
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    padding: 0;
-    font-family: "Raleway", "sans serif";
-    line-height: 1.2;
+    width: 100%;
+    font-size: 16px;
+    font-family: "Raleway", "sans-serif";
 }
-
-/* fin Général */
-
-@media screen and (max-width: 600px) {
-}
-
-@media screen and (min-width: 601px) {
-}
+/*-------- HEADER -----------*/
+/*--------- MAIN ------------*/
+/*-------- FOOTER -----------*/
