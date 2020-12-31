@@ -86,11 +86,39 @@ a .header-nav {
 }
 
 #research {
-    padding: 1rem;
+    padding: 0.77rem;
     width: 14.75rem;
     border: 1px solid #f2f2f2;
     font-weight: bold;
 }
 
+.search-marker {
+    padding: 0.68rem;
+    border: solid 1px #f2f2f2;
+    background-color: #f2f2f2;
+    border-radius: 15px 0 0 15px;
+    position: relative;
+}
+.search-form .fa-search:before {
+    color: #fff;
+    font-size: 1rem;
+}
 
-*-------- FOOTER -----------*/;
+.search-form .search-btn {
+    padding: 0.78rem;
+    border: solid 1px #f2f2f2;
+    background-color: #0065fc;
+    border-radius: 10px;
+    position: relative;
+}
+
+.search-big-btn {
+    padding: 0.78rem;
+    color: #fff;
+    border: solid 1px #f2f2f2;
+    background-color: #0065fc;
+    border-radius: 10px;
+    position: relative;
+    display: none;
+}
+/*-------- FOOTER -----------*/ ;
