@@ -63,6 +63,7 @@ a .header-nav {
     font-weight: bold;
 }
 /*--------- MAIN ------------*/
+/*section search*/
 .search {
     padding: 0 8px;
 }
@@ -138,6 +139,8 @@ a .header-nav {
     font-weight: bold;
     display: none;
 }
+/*section filtres*/
+
 /*-------- FOOTER -----------*/
 .footer {
     display: flex;
