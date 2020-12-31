@@ -138,4 +138,23 @@ a .header-nav {
     font-weight: bold;
     display: none;
 }
-/*-------- FOOTER -----------*/ ;
+/*-------- FOOTER -----------*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    padding: 20px 24px;
+}
+
+footer h4 {
+    margin-bottom: 0;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer li {
+    padding-top: 9px;
+}
