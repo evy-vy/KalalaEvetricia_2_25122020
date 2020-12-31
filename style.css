@@ -9,6 +9,58 @@ body {
     font-size: 16px;
     font-family: "Raleway", "sans-serif";
 }
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
 /*-------- HEADER -----------*/
+.header {
+    padding: 0 0.3125rem;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-nav li {
+    display: flex;
+    border-top: none;
+    border-bottom: 0;
+}
+
+a .header-nav {
+    border-bottom: 3px solid #f2f2f2;
+    padding: 3.15rem;
+}
+
+.header-nav-accomodations {
+    width: 11.72rem;
+    padding: 15px;
+    text-align: center;
+    color: #0065fc;
+    border-top: 3px solid #0065fc none;
+    border-bottom: 3px solid #0065fc;
+}
+.header-nav-activities {
+    width: 11.72rem;
+    padding: 15px;
+    text-align: center;
+    color: #000;
+    border-bottom: 3px solid #f2f2f2;
+}
+
+.header-signup-btn {
+    color: #0065fc;
+    font-weight: bold;
+}
 /*--------- MAIN ------------*/
-/*-------- FOOTER -----------*/
+/*-------- FOOTER -----------*/ ;
