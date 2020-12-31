@@ -19,7 +19,7 @@ a {
 }
 /*-------- HEADER -----------*/
 .header {
-    padding: 0 0.3125rem;
+    padding: 0 0.31rem;
 }
 .header-top {
     display: flex;
@@ -63,4 +63,34 @@ a .header-nav {
     font-weight: bold;
 }
 /*--------- MAIN ------------*/
-/*-------- FOOTER -----------*/ ;
+.search {
+    padding: 0 0.62rem;
+}
+
+.search-top {
+    text-align: center;
+}
+
+.search-main-title {
+    margin: 1.56rem 0.31rem;
+    padding-bottom: 0.31rem;
+}
+
+.search-form {
+    position: relative;
+    top: 0.62rem;
+    padding-bottom: 2.8165rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+#research {
+    padding: 1rem;
+    width: 14.75rem;
+    border: 1px solid #f2f2f2;
+    font-weight: bold;
+}
+
+
+*-------- FOOTER -----------*/;
