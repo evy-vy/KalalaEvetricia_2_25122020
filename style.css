@@ -64,7 +64,7 @@ a .header-nav {
 }
 /*--------- MAIN ------------*/
 .search {
-    padding: 0 0.62rem;
+    padding: 0 8px;
 }
 
 .search-top {
@@ -72,12 +72,14 @@ a .header-nav {
 }
 
 .search-main-title {
-    margin: 25px 0 15px;
-    padding: 0 15px;
+    margin: 25px 17px 15px;
+    padding-right: 18px;
+    padding-left: 10px;
+    letter-spacing: -0.05rem;
 }
 
-.search-top-subtitle {
-    margin: 11px 0 15px;
+.search-subtitle {
+    margin-bottom: 0;
 }
 
 .search-form {
@@ -90,7 +92,7 @@ a .header-nav {
 }
 
 #research {
-    width: 70%;
+    width: 65%;
     padding: 10px 10px 10px 25px;
     padding-left: 25px;
     border: 1px solid #f2f2f2;
