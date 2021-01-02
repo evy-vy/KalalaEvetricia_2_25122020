@@ -79,7 +79,7 @@ a {
     align-items: baseline;
     position: relative;
     top: 10px;
-    margin: 25px;
+    margin: 25px 0 25px 50px;
     padding: 10px 0;
 }
 
@@ -172,17 +172,22 @@ a {
     left: 2px;
 }
 
+.fas.fa-child {
+    margin-left: 4px;
+    margin-right: 5px;
+}
+
+.familial {
+    padding-left: 30px;
+}
+
 .search-info {
     display: flex;
     padding-left: 35px;
 }
 
-i.fas.search-fa-info {
-    font-size: 10px;
-}
-
 .search-fa-info p {
-    margin-top: 8px;
+    margin-top: 0px;
 }
 
 i.fas.fa-info {
@@ -193,16 +198,6 @@ i.fas.fa-info {
     font-size: 10px;
     margin-right: 10px;
 }
-
-.fas.fa-child {
-    margin-left: 4px;
-    margin-right: 5px;
-}
-
-.familial {
-    padding-left: 30px;
-}
-
 /*-------- FOOTER -----------*/
 .footer {
     display: flex;
