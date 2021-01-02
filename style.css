@@ -138,18 +138,21 @@ a {
 }
 
 .search-list {
-    margin-left: 15px;
+    margin-left: 30px;
     margin-top: 10px;
 }
 
 .search-list a {
     border: 2px solid #dfdfdf;
-    padding: 12px;
-    padding-left: 35px;
-    margin-left: -25px;
-    border-radius: 20px;
+    padding: 14px 15px 14px 50px;
+
     color: #000;
     font-weight: bold;
+    margin-left: -40px;
+
+    padding-right: 14px;
+    padding-left: 50px;
+    border-radius: 30px;
 }
 
 .search-list ul {
@@ -159,7 +162,7 @@ a {
 
 .search-list li {
     display: inline-block;
-    margin: 20px 5px 30px;
+    margin: 20px 5px 25px;
 }
 
 .search-fa {
@@ -173,8 +176,8 @@ a {
 }
 
 .fas.fa-child {
-    margin-left: 4px;
-    margin-right: 5px;
+    margin-left: 3px;
+    margin-right: 4px;
 }
 
 .familial {
@@ -183,7 +186,8 @@ a {
 
 .search-info {
     display: flex;
-    padding-left: 35px;
+    padding-left: 40px;
+    align-items: baseline;
 }
 
 .search-fa-info p {
