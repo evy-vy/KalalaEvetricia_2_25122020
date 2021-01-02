@@ -37,11 +37,6 @@ a {
     border-bottom: 0;
 }
 
-a .header-nav {
-    border-bottom: 3px solid #f2f2f2;
-    padding: 3.15rem;
-}
-
 .header-nav-accomodations {
     width: 187.52px;
     padding: 15px;
@@ -78,27 +73,22 @@ a .header-nav {
     letter-spacing: -0.05rem;
 }
 
-.search-subtitle {
-    margin-bottom: 0;
-}
-
 .search-form {
     display: flex;
     justify-content: flex-end;
     align-items: baseline;
     position: relative;
     top: 10px;
-    margin: 25px auto;
+    margin: 25px;
     padding: 10px 0;
-    /*padding-bottom: 15px;*/
 }
 
 #research {
-    width: 225px;
+    width: 215px;
     position: relative;
     top: 2px;
     height: 50px;
-    padding-left: 25px;
+    padding-left: 15px;
     border: 1px solid #f2f2f2;
     font-size: 1rem;
     font-weight: bold;
@@ -114,12 +104,12 @@ a .header-nav {
     position: relative;
 }
 
-.search-form .fa-search:before {
+.search-form .fa-search {
     font-size: 1rem;
     color: #fff;
 }
 
-.search-form .search-btn {
+.search-btn {
     padding: 15px;
     border: solid 1px #f2f2f2;
     background-color: #0065fc;
@@ -148,13 +138,12 @@ a .header-nav {
 }
 
 .search-list {
-    margin-left: 40px;
+    margin-left: 15px;
     margin-top: 10px;
 }
 
 .search-list a {
     border: 2px solid #dfdfdf;
-    border-left: none;
     padding: 12px;
     padding-left: 35px;
     margin-left: -25px;
@@ -165,42 +154,27 @@ a .header-nav {
 
 .search-list ul {
     padding-left: 10px;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .search-list li {
     display: inline-block;
     margin: 20px 5px 30px;
-    /*padding: 10px 0 25px;*/
-    /*padding-left: 15px;*/
 }
 
 .search-fa {
     border: 1px solid #deebff;
     padding: 15px;
-    /*padding: 10px;*/
     border-radius: 50%;
     background-color: #deebff;
     color: #0065fc;
     position: relative;
     left: 2px;
-    /*left: 30px;*/
 }
 
 .search-info {
     display: flex;
     padding-left: 35px;
-}
-
-.search-fa-info {
-    border: 2px solid #deebff;
-    border-radius: 50%;
-    padding: 2px 8px;
-    color: #0065fc;
-    /*font-size: 11px;
-    padding: 6px 10px;
-    border: 2px solid #f2f2f2;
-    border-radius: 50%;*/
 }
 
 i.fas.search-fa-info {
@@ -209,6 +183,15 @@ i.fas.search-fa-info {
 
 .search-fa-info p {
     margin-top: 8px;
+}
+
+i.fas.fa-info {
+    border: 2px solid #f2f2f2;
+    border-radius: 50%;
+    padding: 4px 8px 4px;
+    color: #0065fc;
+    font-size: 10px;
+    margin-right: 10px;
 }
 
 .fas.fa-child {
