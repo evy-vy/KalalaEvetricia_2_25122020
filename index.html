@@ -35,7 +35,7 @@
                 </ul>
             </div>
             <nav class="header-nav">
-                <ul>
+                <ul class="header-list">
                     <li>
                         <a class="header-nav-accomodations" href="#hébergements"
                             >Hébergements</a
@@ -74,35 +74,37 @@
                 <button class="search-big-btn" type="submit">Rechercher</button>
             </form>
 
-            <h3 class="search-second-title">Filtres</h3>
-            <ul class="search-list">
-                <li>
-                    <span class="search-fa"
-                        ><i
-                            class="fas fa-money-bill-wave"
-                            aria-hidden="true"
-                        ></i></span
-                    ><a href="#">Économique</a>
-                </li>
-                <li>
-                    <span class="search-fa"
-                        ><i class="fas fa-child" aria-hidden="true"></i
-                    ></span>
-                    <a class="Familial" href="#">Familial</a>
-                </li>
-                <li>
-                    <span class="search-fa"
-                        ><i class="fas fa-heart" aria-hidden="true"></i
-                    ></span>
-                    <a href="#">Romantique</a>
-                </li>
-                <li>
-                    <span class="search-fa"
-                        ><i class="fas fa-dog" aria-hidden="true"></i
-                    ></span>
-                    <a href="#">Animaux Autorisés</a>
-                </li>
-            </ul>
+            <div class="container-info-filtres">
+                <h2 class="search-second-title">Filtres</h2>
+                <ul class="search-list">
+                    <li>
+                        <span class="search-fa"
+                            ><i
+                                class="fas fa-money-bill-wave"
+                                aria-hidden="true"
+                            ></i></span
+                        ><a href="#">Économique</a>
+                    </li>
+                    <li>
+                        <span class="search-fa"
+                            ><i class="fas fa-child" aria-hidden="true"></i
+                        ></span>
+                        <a class="Family" href="#">Familial</a>
+                    </li>
+                    <li>
+                        <span class="search-fa"
+                            ><i class="fas fa-heart" aria-hidden="true"></i
+                        ></span>
+                        <a href="#">Romantique</a>
+                    </li>
+                    <li>
+                        <span class="search-fa"
+                            ><i class="fas fa-dog" aria-hidden="true"></i
+                        ></span>
+                        <a href="#">Animaux Autorisés</a>
+                    </li>
+                </ul>
+            </div>
             <div class="search-info">
                 <span class="search-fa-info"
                     ><i class="fas fa-info" aria-hidden="true"></i>
@@ -114,15 +116,15 @@
         <!-- ALL_ACCOMODATIONS -->
         <!--popular-->
         <aside class="popular">
-            <div class="popular_title">
-                <h3 class="popular-h3">
+            <div class="popular-top">
+                <h3>
                     Les plus populaires
                     <span class="popular-fa"
                         ><i class="fas fa-chart-line"></i
                     ></span>
                 </h3>
             </div>
-            <ul class="popular_list">
+            <ul class="popular-list">
                 <li>
                     <a href="#">
                         <img
@@ -159,7 +161,9 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                                <span class="gray"
+                                    ><i class="fas fa-star"></i
+                                ></span>
                             </div>
                         </div>
                     </a>
@@ -180,7 +184,9 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                                <span class="gray"
+                                    ><i class="fas fa-star"></i
+                                ></span>
                             </div>
                         </div>
                     </a>
@@ -191,7 +197,7 @@
         <!-- accomodations -->
         <section class="accomodations">
             <h3 class="marseille-accomodations">Hébergements à Marseille</h3>
-            <ul>
+            <ul class="accommodations-list">
                 <li>
                     <a href="#">
                         <img
@@ -206,7 +212,9 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                            <span class="gray"
+                                ><i class="fas fa-star"></i
+                            ></span>
                         </div>
                     </a>
                 </li>
@@ -244,7 +252,9 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                            <span class="gray"
+                                ><i class="fas fa-star"></i
+                            ></span>
                         </div>
                     </a>
                 </li>
@@ -262,8 +272,10 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                            <span class="gray"
+                                ><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i
+                            ></span>
                         </div>
                     </a>
                 </li>
@@ -281,7 +293,9 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                            <span class="gray"
+                                ><i class="fas fa-star"></i
+                            ></span>
                         </div>
                     </a>
                 </li>
@@ -311,54 +325,57 @@
         <!-- activities -->
         <section class="activities">
             <h3 class="activities-title">Activités à Marseille</h3>
-            <a href="#">
-                <img
-                    class="activities-image"
-                    src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
-                    alt="photo du Vieux Port"
-                />
-                <h4>Vieux Port</h4>
-            </a>
-            <a href="#">
-                <img
-                    class="activities-image"
-                    src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
-                    alt="Fort de Pommègues "
-                />
-                <h4>Fort de Pommègues</h4>
-            </a>
-            <a href="#">
-                <img
-                    class="activities-image"
-                    src="./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
-                    alt="Iles de Frioul"
-                />
-                <h4>Iles de Frioul</h4>
-            </a>
-            <a href="#">
-                <img
-                    class="activities-image"
-                    src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
-                    alt="Les Calanques"
-                />
-                <h4>Parc National des Calanques</h4>
-            </a>
-            <a href="#">
-                <img
-                    class="activities-image"
-                    src="./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
-                    alt="Notre-Dame-De-La-Garde"
-                />
-                <h4>Notre-Dame-De-La-Garde</h4>
-            </a>
-            <a href="#">
-                <img
-                    class="activities-image"
-                    src="./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
-                    alt="Parc Longchamp"
-                />
-                <h4>Parc Longchamp</h4>
-            </a>
+
+            <div class="activities-places">
+                <a href="#">
+                    <img
+                        class="activities-image"
+                        src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                        alt="photo du Vieux Port"
+                    />
+                    <h4>Vieux Port</h4>
+                </a>
+                <a href="#">
+                    <img
+                        class="activities-image"
+                        src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                        alt="Fort de Pommègues "
+                    />
+                    <h4>Fort de Pommègues</h4>
+                </a>
+                <a href="#">
+                    <img
+                        class="activities-image"
+                        src="./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                        alt="Iles de Frioul"
+                    />
+                    <h4>Iles de Frioul</h4>
+                </a>
+                <a href="#">
+                    <img
+                        class="activities-image"
+                        src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                        alt="Les Calanques"
+                    />
+                    <h4>Parc National des Calanques</h4>
+                </a>
+                <a href="#">
+                    <img
+                        class="activities-image"
+                        src="./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                        alt="Notre-Dame-De-La-Garde"
+                    />
+                    <h4>Notre-Dame-De-La-Garde</h4>
+                </a>
+                <a href="#">
+                    <img
+                        class="activities-image"
+                        src="./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                        alt="Parc Longchamp"
+                    />
+                    <h4>Parc Longchamp</h4>
+                </a>
+            </div>
         </section>
         <!-- Fin activities -->
         <!-- Fin MAIN -->
@@ -366,23 +383,23 @@
         <!-- FOOTER -->
         <footer class="footer">
             <div>
-                <h4 class="footer-about">A propos</h4>
-                <ul>
+                <h4 class="footer-titles">A propos</h4>
+                <ul class="footer-list">
                     <li>Fonctionnement du site</li>
                     <li>Condition générales de ventes</li>
                     <li>Données et confidentialité</li>
                 </ul>
             </div>
             <div>
-                <h4 class="footer-accomodation">Nos hébergements</h4>
-                <ul>
+                <h4 class="footer-titles">Nos hébergements</h4>
+                <ul class="footer-list">
                     <li>Charte qualité</li>
                     <li>Soumettre votre hôtel</li>
                 </ul>
             </div>
             <div>
-                <h4 class="footer-assistance">Assistance</h4>
-                <ul>
+                <h4 class="footer-titles">Assistance</h4>
+                <ul class="footer-list">
                     <li>Centre d'aide</li>
                     <li>Nous contacter</li>
                 </ul>

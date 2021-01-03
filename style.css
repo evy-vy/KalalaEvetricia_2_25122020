@@ -1,4 +1,4 @@
-/*---------GENERAL-----------*/
+/* GENERAL */
 * {
     box-sizing: border-box;
 }
@@ -9,7 +9,12 @@ body {
     font-size: 14px;
     font-family: "Raleway", "sans-serif";
 }
-ul {
+
+.header-list,
+.search-list,
+.popular-list,
+.accommodations-list,
+.footer-list {
     padding: 0;
     list-style-type: none;
 }
@@ -29,10 +34,22 @@ h4 {
     height: auto;
     display: block;
 }
-/*-------- HEADER -----------*/
+
+.starsGrade {
+    color: #0065fc;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.gray .fas.fa-star {
+    color: lightgray;
+}
+
+/* HEADER */
 .header {
     padding: 0 5px;
 }
+
 .header-top {
     display: flex;
     justify-content: space-between;
@@ -50,14 +67,15 @@ h4 {
 }
 
 .header-nav-accomodations {
-    width: 187.52px;
+    width: 13.25rem;
     padding: 15px;
     text-align: center;
     color: #0065fc;
     border-bottom: 3px solid #0065fc;
 }
+
 .header-nav-activities {
-    width: 187.52px;
+    width: 13.25rem;
     padding: 15px;
     text-align: center;
     color: #000;
@@ -68,8 +86,8 @@ h4 {
     color: #0065fc;
     font-weight: bold;
 }
-/*--------- MAIN ------------*/
-/*----section search------*/
+
+/* section search */
 .search {
     padding: 0 8px;
 }
@@ -142,7 +160,7 @@ h4 {
     font-weight: bold;
     display: none;
 }
-/*section filtres*/
+/* section filtres */
 .search-second-title {
     padding-left: 45px;
     margin-bottom: 0px;
@@ -165,6 +183,11 @@ h4 {
     padding-right: 14px;
     padding-left: 50px;
     border-radius: 30px;
+}
+
+.search-list a:hover {
+    background: linear-gradient(70deg, transparent, #deebff, #0065fc);
+    border: #deebff;
 }
 
 .search-list ul {
@@ -192,7 +215,7 @@ h4 {
     margin-right: 4px;
 }
 
-.familial {
+.family {
     padding-left: 30px;
 }
 
@@ -221,7 +244,7 @@ i.fas.fa-info {
     padding: 15px 0;
 }
 
-.popular-h3 {
+.popular-top h3 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
@@ -231,25 +254,13 @@ i.fas.fa-info {
 .subtitle {
     color: #000;
 }
-.popular li {
-    display: flex;
+
+.more {
+    color: #000;
+    font-weight: bold;
 }
 
-.popular a {
-    display: flex;
-    justify-content: space-around;
-}
-
-.popular-image {
-    width: 50%;
-    height: auto;
-    display: block;
-}
-
-.starsGrade {
-    margin-top: 5px;
-    margin-bottom: 20px;
-}
+/*activities*/
 
 /*-------- FOOTER -----------*/
 .footer {
@@ -259,11 +270,11 @@ i.fas.fa-info {
     padding: 20px 24px;
 }
 
-footer h4 {
+.footer-titles {
     margin-bottom: 0;
 }
 
-footer ul {
+.footer-links {
     list-style-type: none;
     padding-left: 0;
 }
