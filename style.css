@@ -252,27 +252,25 @@ i.fas.fa-info {
     padding: 0 15px;
 }
 
-.subtitle {
-    color: #000;
+.fas.fa-chart-line {
+    padding-right: 5px;
 }
 
-.more {
+.subtitle {
     color: #000;
-    font-weight: bold;
 }
 
 .popular-list li {
     background-color: #fff;
     display: flex;
     width: 90%;
-    border-radius: 21px;
-    margin: 10px 16px;
-    box-shadow: 5px 5px;
+    border-radius: 20px;
+    margin: 12px 18px;
 }
 
 .popular-list li a {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
     padding: 5px 5px;
 }
@@ -285,9 +283,10 @@ img.popular-image {
 }
 
 .popular-big-image {
-    width: 178.2px;
-    height: 135.2px;
+    width: 48%;
+    height: 100%;
     border-radius: 15px 0 0 15px;
+    margin-bottom: -85px;
     object-fit: cover;
 }
 
@@ -302,18 +301,20 @@ img.popular-image {
     margin-bottom: 5px;
     margin-top: 10px;
     font-size: 15px;
-    text-align: left;
-}
-
-.fas.fa-chart-line {
-    padding-right: 5px;
+    /*text-align: left;*/
 }
 
 .popular-overlay .starsGrade {
-    padding-top: 35px;
-    margin-bottom: 10px;
+    padding-top: 58px;
+    margin: 5px;
 }
 /* accomodations */
+
+#hebergement {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
 
 .accommodations-list li {
     display: flex;
@@ -327,7 +328,7 @@ img.popular-image {
     padding: 5px 5px;
 }
 
-.accomodations-image {
+/*.accomodations-image {
     width: 100%;
     border-radius: 15px 15px 0 0px;
     object-fit: cover;
@@ -338,8 +339,12 @@ img.popular-image {
     flex-direction: column;
     padding: 0 20px;
     align-items: baseline;
-}
+}*/
 
+.more {
+    color: #000;
+    font-weight: bold;
+}
 /*activities*/
 
 /*-------- FOOTER -----------*/
