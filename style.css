@@ -41,6 +41,12 @@ h4 {
     color: lightgray;
 }
 
+.prices,
+.lower-prices {
+    color: #000;
+    font-weight: bold;
+}
+
 /* HEADER */
 .header {
     padding: 0 0.3125rem;
