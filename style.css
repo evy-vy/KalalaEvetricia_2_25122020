@@ -38,13 +38,13 @@ h4 {
     font-size: 1.1rem;
 }
 
-.popular-image,
+/*.popular-image,
 .accomodations-image,
 .activities-image {
     width: 100%;
     height: auto;
     display: block;
-}
+}*/
 
 .starsGrade {
     color: #0065fc;
@@ -257,48 +257,49 @@ i.fas.fa-info {
 }
 
 .popular-top h3 {
-    font-size: 1rem;
+    font-size: 1.4rem;
+    color: #000;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
-    padding: 0 15px;
+    margin-left: 6%;
+    margin-top: 5%;
 }
 
 .fas.fa-chart-line {
-    padding-right: 5px;
+    padding-right: 2rem;
 }
 
 .subtitle {
     color: #000;
 }
 
-.popular-list li .activities-places {
-    background-color: #fff;
+.popular-list {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popular-list li {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
     width: 90%;
     border-radius: 20px;
-    margin: 12px 18px;
+    margin: 10px 0;
 }
 
 .popular-list li a {
+    height: auto;
     display: flex;
     justify-content: space-around;
-    text-align: center;
-    padding: 5px 5px;
+    border: #fff 5px solid;
+    border-radius: 15px;
 }
 
 img.popular-image {
     width: 40%;
-    height: 100%;
+    height: 11em;
     border-radius: 15px 0 0 15px;
-    object-fit: cover;
-}
-
-.popular-big-image {
-    width: 48%;
-    height: 100%;
-    border-radius: 15px 0 0 15px;
-    margin-bottom: -85px;
     object-fit: cover;
 }
 
@@ -313,7 +314,6 @@ img.popular-image {
     margin-bottom: 5px;
     margin-top: 10px;
     font-size: 15px;
-    /*text-align: left;*/
 }
 
 .popular-overlay .starsGrade {
@@ -323,9 +323,10 @@ img.popular-image {
 /* accomodations */
 
 #hebergement {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    margin-left: 25px;
+    margin-top: 13%;
+    margin-left: 6%;
+    font-size: 1.4rem;
+    color: black;
 }
 
 .accommodations-list {
@@ -383,6 +384,10 @@ img.popular-image {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: #fff;
+    width: 90%;
+    border-radius: 20px;
+    margin: 12px 18px;
 }
 
 .activities-places a {
