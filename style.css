@@ -4,7 +4,7 @@
 }
 
 html {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 body {
@@ -26,30 +26,15 @@ a {
     text-decoration: none;
 }
 
-h3 {
-    margin-top: 13%;
-    margin-left: 6%;
-    font-size: 1.4rem;
-    color: black;
-}
-
 h4 {
     color: #000;
-    font-size: 1.1rem;
 }
-
-/*.popular-image,
-.accomodations-image,
-.activities-image {
-    width: 100%;
-    height: auto;
-    display: block;
-}*/
 
 .starsGrade {
     color: #0065fc;
-    margin-top: 5px;
-    margin-bottom: 20px;
+    margin-top: 0.3125rem;
+    margin-bottom: 20rem 1.25rem;
+    font-size: 0.8em;
 }
 
 .gray .fas.fa-star {
@@ -58,13 +43,13 @@ h4 {
 
 /* HEADER */
 .header {
-    padding: 0 5px;
+    padding: 0 0.3125rem;
 }
 
 .header-top {
     display: flex;
     justify-content: space-between;
-    padding: 0 10px;
+    padding: 0 0.625rem;
 }
 
 .header-nav ul {
@@ -79,16 +64,16 @@ h4 {
 }
 
 .header-nav-accomodations {
-    width: 187.52px;
-    padding: 15px;
+    width: 11.72rem;
+    padding: 0.9375rem;
     text-align: center;
     color: #0065fc;
     border-bottom: 3px solid #0065fc;
 }
 
 .header-nav-activities {
-    width: 187.52px;
-    padding: 15px;
+    width: 11.72rem;
+    padding: 0.9375rem;
     text-align: center;
     color: #000;
     border-bottom: 3px solid #f2f2f2;
@@ -101,7 +86,7 @@ h4 {
 
 /* section search */
 .search {
-    padding: 0 8px;
+    padding: 0 0.5rem;
 }
 
 .search-top {
@@ -109,9 +94,9 @@ h4 {
 }
 
 .search-main-title {
-    margin: 25px 17px 15px;
-    padding-right: 18px;
-    padding-left: 10px;
+    margin: 1.25rem 0.5625rem 0.625rem 0.5rem;
+    padding-right: 1.125rem;
+    padding-left: 0.625rem;
     letter-spacing: -0.05rem;
 }
 
@@ -120,80 +105,80 @@ h4 {
     justify-content: flex-end;
     align-items: baseline;
     position: relative;
-    top: 10px;
-    margin: 25px 0 25px 50px;
+    top: 0.625em;
+    margin: 1.56em 0 1.56em 3.125em;
     padding: 10px 0;
 }
 
 #research {
-    width: 215px;
+    width: 13.4375rem;
     position: relative;
-    top: 2px;
-    height: 50px;
-    padding-left: 15px;
+    top: 0.125rem;
+    height: 3.125rem;
+    padding-left: 0.9375rem;
     border: 1px solid #f2f2f2;
     font-size: 1rem;
     font-weight: bold;
 }
 
 .search-marker {
-    width: 50px;
-    padding: 16px;
-    border: solid 1px #f2f2f2;
+    width: 3.125rem;
+    padding: 1rem;
+    border: solid 0.0625rem #f2f2f2;
     background-color: #f2f2f2;
-    border-radius: 15px 0 0 15px;
+    border-radius: 0.9375rem 0 0 0.9375rem;
     text-align: center;
     position: relative;
 }
 
 .search-form .fa-search {
-    font-size: 1rem;
+    font-size: 1em;
     color: #fff;
 }
 
 .search-btn {
-    padding: 15px;
-    border: solid 1px #f2f2f2;
+    padding: 0.9375rem;
+    border: solid 0.0625rem #f2f2f2;
     background-color: #0065fc;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     position: relative;
-    right: 20px;
+    right: 1.25rem;
 }
 
 .search-big-btn {
-    padding: 15px;
-    border: solid 1px #f2f2f2;
+    padding: 0.9375rem;
+    border: solid 0.0625rem #f2f2f2;
     background-color: #0065fc;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     position: relative;
-    right: 4px;
-    bottom: 1px;
+    right: 0.25rem;
+    bottom: 0.0625rem;
     color: #fff;
     font-weight: bold;
     display: none;
 }
 /* section filtres */
 .search-second-title {
-    padding-left: 45px;
-    margin-bottom: 0px;
-    margin-top: 30px;
+    padding-left: 1.875rem;
+    margin-bottom: 0;
+    margin-top: 1.875rem;
     font-size: 1.2rem;
 }
 
 .search-list {
-    margin-left: 30px;
-    margin-top: 10px;
+    margin-left: 0.625rem;
+    margin-top: 0.625rem;
 }
 
 .search-list a {
-    border: 2px solid #dfdfdf;
-    padding: 14px 15px 14px 50px;
+    border: 0.125rem solid #dfdfdf;
+    padding: 0.875rem 0.9375rem 0.875rem 3.125rem;
     color: #000;
     font-weight: bold;
-    margin-left: -40px;
-    padding-right: 14px;
-    padding-left: 50px;
-    border-radius: 30px;
+    margin-left: -2.5rem;
+    padding-right: 0.875rem;
+    padding-left: 3.125rem;
+    border-radius: 1.875rem;
 }
 
 .search-list a:hover {
@@ -202,39 +187,39 @@ h4 {
 }
 
 .search-list ul {
-    padding-left: 10px;
-    margin-top: 10px;
+    padding-left: 0.625rem;
+    margin-top: 0.625rem;
 }
 
 .search-list li {
     display: inline-block;
-    margin: 20px 5px 25px;
+    margin: 1.25rem 0.3125rem 1.5625rem;
 }
 
 .search-fa {
-    border: 1px solid #deebff;
-    padding: 15px;
+    border: 0.0625rem solid #deebff;
+    padding: 0.9375rem;
     border-radius: 50%;
     background-color: #deebff;
     color: #0065fc;
     position: relative;
-    left: 2px;
+    left: 0.125rem;
 }
 
 .fas.fa-child {
-    margin-left: 3px;
-    margin-right: 4px;
+    margin-left: 0.1875rem;
+    margin-right: 0.25rem;
 }
 
 .family {
-    padding-left: 30px;
+    padding-left: 1.875rem;
 }
 
 .search-info {
     display: flex;
-    padding-left: 40px;
+    padding-left: 1.5rem;
     align-items: baseline;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .search-fa-info p {
@@ -242,18 +227,18 @@ h4 {
 }
 
 i.fas.fa-info {
-    border: 2px solid #f2f2f2;
+    border: 0.125rem solid #f2f2f2;
     border-radius: 50%;
-    padding: 4px 8px 4px;
+    padding: 0.25rem 0.5rem 0.25rem;
     color: #0065fc;
-    font-size: 10px;
-    margin-right: 10px;
+    font-size: 0.625rem;
+    margin-right: 0.625rem;
 }
 
 /* aside popular */
 .popular {
     background-color: #f2f2f2;
-    padding: 15px 0;
+    padding: 0.9375rem 0;
 }
 
 .popular-top h3 {
@@ -261,8 +246,8 @@ i.fas.fa-info {
     color: #000;
     display: flex;
     justify-content: space-between;
-    margin-left: 6%;
-    margin-top: 5%;
+    margin-left: 1.4rem;
+    margin-top: 1.17rem;
 }
 
 .fas.fa-chart-line {
@@ -284,47 +269,48 @@ i.fas.fa-info {
     justify-content: center;
     background-color: #fff;
     width: 90%;
-    border-radius: 20px;
-    margin: 10px 0;
+    border-radius: 1.25rem;
+    margin: 0.625rem 0;
 }
 
 .popular-list li a {
-    height: auto;
+    width: auto;
+    height: 10.31em;
     display: flex;
     justify-content: space-around;
-    border: #fff 5px solid;
-    border-radius: 15px;
+    border: #fff 0.3125em solid;
+    border-radius: 1.5625em;
 }
 
 img.popular-image {
     width: 40%;
-    height: 11em;
-    border-radius: 15px 0 0 15px;
+    height: auto;
+    border-radius: 0.9375em 0 0 0.9375em;
     object-fit: cover;
 }
 
 .popular-overlay {
     display: flex;
     flex-direction: column;
-    padding: 0 20px;
+    padding: 0 1.25rem;
     text-align: left;
 }
 
 .popular-overlay h4 {
-    margin-bottom: 5px;
-    margin-top: 10px;
-    font-size: 15px;
+    margin-bottom: 0.3125rem;
+    margin-top: 0.625rem;
+    font-size: 0.9375rem;
 }
 
 .popular-overlay .starsGrade {
-    padding-top: 58px;
-    margin: 5px;
+    padding-top: 3.625rem;
+    margin: 0.3125rem;
 }
 /* accomodations */
 
-#hebergement {
-    margin-top: 13%;
-    margin-left: 6%;
+#hebergements {
+    margin-top: 3.04rem;
+    margin-left: 1.3rem;
     font-size: 1.4rem;
     color: black;
 }
@@ -337,48 +323,55 @@ img.popular-image {
 .accommodations-list li {
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .accommodations-list a {
     width: 90%;
     height: auto;
     background-color: #fff;
-    border: #fff 5px solid;
-    box-shadow: 5px 5px 20px #f2f2f2;
-    border-radius: 15px;
+    border: #fff 0.3125em solid;
+    box-shadow: 0.3125em 0.3125em 1.25em #f2f2f2;
+    border-radius: 0.9375em;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
 }
 
 .accomodations-image {
     width: 100%;
-    height: 8em;
+    height: 7em;
     object-fit: cover;
-    border-radius: 15px 15px 0 0;
+    border-radius: 0.9375em 0.9375em 0 0;
 }
 
 .accomodations-overlay {
-    padding-left: 10px;
+    padding-left: 0.625rem;
 }
 
 .accomodations-overlay h4 {
-    margin-bottom: 5px;
+    margin-top: 0.3125rem;
+    margin-bottom: 0.3125rem;
 }
 
 .accomodations-overlay .starsGrade {
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
 }
 
 .more {
-    margin: 6%;
+    margin: 1.4rem;
     color: #000;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 /*activities*/
+
+#activites {
+    margin-top: 3.04rem;
+    margin-left: 1.3rem;
+    font-size: 1.4rem;
+    color: black;
+}
 .activities-places {
     display: flex;
     justify-content: center;
@@ -386,29 +379,30 @@ img.popular-image {
     align-items: center;
     background-color: #fff;
     width: 90%;
-    border-radius: 20px;
-    margin: 12px 18px;
+    border-radius: 1.25rem;
+    margin: 0.75rem 1.125rem;
 }
 
 .activities-places a {
-    width: 90%;
+    width: 100%;
     height: auto;
-    box-shadow: 2px 6px 14px #f2f2f2;
+    box-shadow: 0.125em 0.375em 0.875em #f2f2f2;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
 }
 
 .activities-image {
     width: 100%;
     height: 8em;
     object-fit: cover;
-    border-radius: 15px 15px 0 0;
+    border-radius: 0.9375em 0.9375em 0 0;
 }
 
 .activities-places h4 {
-    padding-left: 5%;
+    padding-left: 1.05rem;
+    font-weight: bold;
 }
 
 /*-------- FOOTER -----------*/
@@ -416,7 +410,7 @@ img.popular-image {
     display: flex;
     flex-direction: column;
     background-color: #f2f2f2;
-    padding: 20px 24px;
+    padding: 1.25rem 1.5rem;
 }
 
 .footer-titles {
@@ -429,5 +423,5 @@ img.popular-image {
 }
 
 footer li {
-    padding-top: 9px;
+    padding-top: 0.625rem;
 }
