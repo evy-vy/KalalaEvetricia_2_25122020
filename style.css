@@ -33,7 +33,6 @@ h4 {
 .starsGrade {
     color: #0065fc;
     margin-top: 0.3125rem;
-    margin-bottom: 20rem 1.25rem;
     font-size: 0.8em;
 }
 
@@ -48,14 +47,11 @@ h4 {
 }
 
 /* HEADER */
-.header {
-    padding: 0 0.3125rem;
-}
-
 .header-top {
     display: flex;
     justify-content: space-between;
-    padding: 0 0.625rem;
+    padding: 20px;
+    padding-bottom: 0;
 }
 
 .header-nav ul {
@@ -67,10 +63,11 @@ h4 {
     display: flex;
     border-top: none;
     border-bottom: 0;
+    width: 50%;
 }
 
 .header-nav-accomodations {
-    width: 11.72rem;
+    width: 100%;
     padding: 0.9375rem;
     text-align: center;
     color: #0065fc;
@@ -78,10 +75,10 @@ h4 {
 }
 
 .header-nav-activities {
-    width: 11.72rem;
+    width: 100%;
     padding: 0.9375rem;
     text-align: center;
-    color: #000;
+    color: #0065fc;
     border-bottom: 3px solid #f2f2f2;
 }
 
@@ -96,13 +93,11 @@ h4 {
 }
 
 .search-top {
-    text-align: center;
+    text-align: left;
+    margin: 30px 10px 0px;
 }
 
 .search-main-title {
-    margin: 1.25rem 0.5625rem 0.625rem 0.5rem;
-    padding-right: 1.125rem;
-    padding-left: 0.625rem;
     letter-spacing: -0.05rem;
 }
 
@@ -281,11 +276,12 @@ i.fas.fa-info {
 
 .popular-list li a {
     width: auto;
-    height: 10.31em;
+    height: 8.31em;
     display: flex;
     justify-content: space-around;
     border: #fff 0.3125em solid;
     border-radius: 1.5625em;
+    position: relative;
 }
 
 img.popular-image {
@@ -309,8 +305,8 @@ img.popular-image {
 }
 
 .popular-overlay .starsGrade {
-    padding-top: 3.625rem;
-    margin: 0.3125rem;
+    position: absolute;
+    bottom: 4px;
 }
 /* accomodations */
 
