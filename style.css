@@ -47,6 +47,11 @@ h4 {
 }
 
 /* HEADER */
+
+.header-desktop {
+    display: none;
+}
+
 .header-top {
     display: flex;
     justify-content: space-between;
@@ -426,4 +431,43 @@ img.popular-image {
 
 footer li {
     padding-top: 0.625rem;
+}
+@media screen and (min-width: 500px) {
+    .header {
+        display: none;
+    }
+
+    .header-desktop {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        padding-bottom: 0;
+    }
+
+    .header-desktop ul {
+        display: flex;
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .header-desktop li {
+        margin-right: 5px;
+    }
+
+    .header-desktop a {
+        padding: 25px;
+    }
+
+    .header-desktop-accomodations {
+        color: #0065fc;
+        border-top: 3px solid;
+    }
+
+    .header-desktop-activities {
+        color: #000;
+    }
+
+    .header-desktop-signup {
+        color: #0065fc;
+    }
 }
