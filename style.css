@@ -288,7 +288,7 @@ i.fas.fa-info {
 
 .popular-list li {
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     background-color: #fff;
     width: 90%;
     border-radius: 1.25rem;
@@ -299,7 +299,7 @@ i.fas.fa-info {
     width: auto;
     height: 8.31em;
     display: flex;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
     border: #fff 0.3125em solid;
     border-radius: 1.5625em;
     position: relative;
@@ -448,6 +448,9 @@ img.popular-image {
 footer li {
     padding-top: 0.625rem;
 }
+
+/* MEDIA SCREEN */
+
 @media screen and (min-width: 500px) {
     .header {
         display: none;
@@ -486,7 +489,8 @@ footer li {
     .header-desktop-signup {
         color: #0065fc;
     }
-    /* search */
+
+    /* media search */
 
     .search-btn {
         display: none;
@@ -494,5 +498,35 @@ footer li {
 
     .search-big-btn {
         display: inline-block;
+    }
+
+    .container-info-filtres {
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap;
+    }
+
+    /*media popular*/
+
+    .popular-list li {
+        justify-content: center;
+        background-color: inherit;
+    }
+
+    .popular-list li a {
+        width: 90%;
+        border: hidden;
+        border-radius: unset;
+    }
+
+    .popular-image {
+        margin-right: 5px;
+    }
+
+    .popular-overlay {
+        background-color: #fff;
+        margin-left: 15px;
+        width: 100%;
+        border-radius: 0 20px 20px 0;
     }
 }
