@@ -658,7 +658,7 @@ footer li {
 
     /* media (700px) accomodations */
 
-    /*.accomodations {
+    .accomodations {
         display: flex;
         flex-direction: column;
     }
@@ -675,21 +675,13 @@ footer li {
 
     .accomodations-image {
         height: 125px;
-    }*/
+    }
+    */
 
     /* media (700px) activities */
 
-    #activities {
-        margin-top: 20px;
-        /*height: 475px;*/
-    }
-
     .activities {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 840px;
-        align-items: center;
+        width: 100%;
     }
 
     #activites {
@@ -698,7 +690,6 @@ footer li {
 
     .activities-places {
         display: flex;
-        flex-direction: column;
     }
 
     .activities-second,
@@ -709,28 +700,30 @@ footer li {
         margin-bottom: 45px;
     }
 
-    .activities-XL {
-        width: 100%;
-        height: auto;
-    }
-
     .activities-places a {
         height: 100%;
-        width: auto;
+        width: 165px;
     }
 
     .activities-doubleXL {
-        height: 100%;
-        width: 100%;
+        height: auto;
+        width: 300%;
     }
 
     .activities-little-pics {
         width: 100%;
-        height: 50%;
+        height: 9em;
     }
 
     .activities-little-pics img {
-        height: 70%;
+        width: 100%;
+        height: 60%;
+    }
+
+    .activities-little-pics h4 {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding-top: 5px;
     }
 
     /*media (700px) footer*/
