@@ -681,10 +681,6 @@ footer li {
 
     /*media footer*/
 
-    .footer-list {
-        /*margin-right: 100px;*/
-    }
-
     .footer {
         display: flex;
         flex-direction: row;
@@ -708,7 +704,6 @@ footer li {
     .popular-list {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
     }
 
     .popular-list li {
@@ -748,4 +743,36 @@ footer li {
     .activities-places {
         flex-direction: row;
     }
+
+    /*accomodations*/
+
+    /*.accomodations-list ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .accomodations-list li {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0.625rem;
+    }
+
+    .accomodations-list a {
+        width: 90%;
+        height: auto;
+        /*background-color: #fff;*/
+    /*border: #fff 0.3125em solid;
+        box-shadow: 0.3125em 0.3125em 1.25em #f2f2f2;
+        border-radius: 0.9375em;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0.625em;
+    }
+
+    .accomodations-image {
+        width: 100%;
+        height: 112px;
+        object-fit: cover;
+        border-radius: 0.9375em 0.9375em 0 0;
+    }*/
 }
