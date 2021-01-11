@@ -399,9 +399,7 @@ img.popular-image {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    /*background-color: #fff;*/
     width: 90%;
-    /*border-radius: 1.25rem;*/
     margin: 0 1.125rem 30px;
 }
 
@@ -414,6 +412,10 @@ img.popular-image {
 }
 
 .activities-XL {
+    width: 100%;
+}
+
+.activities-doubleXL {
     width: 100%;
 }
 
@@ -502,7 +504,7 @@ footer li {
         color: #0065fc;
     }
 
-    /* media search */
+    /* media (500px) search */
 
     .search-form div {
         justify-content: center;
@@ -522,7 +524,7 @@ footer li {
         flex-wrap: wrap;
     }
 
-    /*media popular*/
+    /*media (500px) popular*/
 
     .popular-list li {
         justify-content: center;
@@ -546,12 +548,64 @@ footer li {
         border-radius: 0 20px 20px 0;
     }
 
-    /*media accomodations */
+    /*media (500px) accomodations */
+
+    .accomodations {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .accomodations-list {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .accomodations-list li {
+        width: 50%;
+    }
+
+    .accomodations-image {
+        height: 125px;
+    }
+
+    /* media (500px) activities*/
+
+    .activities {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #activites {
+        align-self: baseline;
+    }
+
+    .activities-places {
+        flex-direction: row;
+    }
+
+    .activities-first .a {
+        margin-right: 20px;
+    }
+
     /*media (500px) footer*/
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+        padding: 1.25rem 0;
+    }
+
+    .footer div {
+        width: 33.33%;
+        padding: 0 30px 0 30px;
+    }
 }
 
 @media screen and (min-width: 700px) {
-    /*search*/
+    /*search (700px)*/
 
     .search-form div {
         justify-content: center;
@@ -602,9 +656,9 @@ footer li {
         border-radius: 0.9375em 0.9375em 0 0;
     }
 
-    /* media accomodations */
+    /* media (700px) accomodations */
 
-    .accomodations {
+    /*.accomodations {
         display: flex;
         flex-direction: column;
     }
@@ -621,9 +675,9 @@ footer li {
 
     .accomodations-image {
         height: 125px;
-    }
+    }*/
 
-    /* activities */
+    /* media (700px) activities */
 
     #activities {
         margin-top: 20px;
@@ -679,27 +733,17 @@ footer li {
         height: 70%;
     }
 
-    /*media footer*/
-
-    .footer {
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 20px;
-        padding: 1.25rem 0;
-    }
-
-    .footer div {
-        width: 33.33%;
-        padding: 0 30px 0 30px;
-    }
+    /*media (700px) footer*/
 }
 
 @media screen and (min-width: 1000px) {
-    /*media search*/
+    /*media (1000px) search*/
 
     .search-form div {
         justify-content: flex-start;
     }
+
+    /*media (1000px) popular*/
 
     .popular-list {
         display: flex;
@@ -740,11 +784,12 @@ footer li {
         text-align: left;
     }
 
+    /*media (1000px) activities*/
     .activities-places {
         flex-direction: row;
     }
 
-    /*accomodations*/
+    /*media (1000px) accomodations*/
 
     /*.accomodations-list ul {
         display: flex;
@@ -775,4 +820,6 @@ footer li {
         object-fit: cover;
         border-radius: 0.9375em 0.9375em 0 0;
     }*/
+
+    /*media (1000px) footer*/
 }
