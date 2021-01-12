@@ -659,62 +659,79 @@ footer li {
     }
 
     #activites {
-        align-self: flex-start;
+        margin-bottom: 0;
     }
 
     .activities-places {
-        display: flex;
-    }
-
-    .activities-second,
-    .activities-first {
-        display: flex;
-        width: auto;
-        /*height: 300px;*/
-        margin-bottom: 45px;
-    }
-
-    .activities-places {
-        display: flex;
-        justify-content: center;
-        flex-direction: unset;
-        align-items: flex-start;
-        width: unset;
-        margin: 12px 20px;
         width: 100%;
+    }
+
+    .activities-XL {
+        width: 95%;
+        height: 330px;
+    }
+
+    .activities-places {
+        display: flex;
+        /*justify-content: center;
+        flex-direction: unset;*/
+        width: 100%;
+        align-items: flex-start;
+        padding: 15px 5px 15px 20px;
+
+        /*
         height: 100%;
         object-fit: cover;
-        border-radius: 0.9375em 0.9375em 0 0;
+        border-radius: 0.9375em 0.9375em 0 0;*/
     }
 
     .activities-places a {
-        width: 90%;
-        height: 100%;
-        /*box-shadow: 0.125em 0.375em 0.875em #f2f2f2;
-        border-radius: 15px;*/
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin: 10px;
+        width: 95%;
+        height: 100%;
     }
 
     .activities-image {
         height: 100%;
     }
 
+    .activities-places h4 {
+        padding-left: 10px;
+    }
+
     .activities-doubleXL {
         height: auto;
-        /*width: 300%;*/
+        padding: 0 15px 0 15px;
     }
 
     .activities-little-pics {
-        height: 9em;
+        height: 135px;
+        margin-top: 0;
     }
 
     .activities-little-pics img {
-        height: 60%;
+        height: 65%;
     }
 
+    .activities-little-pics .fort {
+        height: 170px;
+    }
+
+    .activities-little-pics .ile {
+        height: 135px;
+        margin-top: 60px;
+    }
+
+    .activities-little-pics .notre-dame {
+        height: 150px;
+    }
+
+    .activities-little-pics .longchamp {
+        height: 150px;
+        margin-top: 45px;
+    }
     .activities-little-pics h4 {
         margin-bottom: 0px;
         margin-top: 0px;
@@ -823,22 +840,17 @@ footer li {
     }
 
     /*media (1000px) activities*/
-    .activities-places {
-        flex-direction: row;
-        width: 100%;
-    }
 
     .activities-XL {
-        width: 95%;
-    }
-
-    /*.activities-little-pics .fort {
-        height: 11em;
+        width: 75%;
+        height: 330px;
     }
 
     .fort img {
-        height: 75%;
-    }*/
+        height: 70%;
+    }
 
-    /*media (1000px) footer*/
+    .fort h4 {
+        padding-top: 5px;
+    }
 }
