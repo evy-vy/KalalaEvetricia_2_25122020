@@ -204,7 +204,6 @@ h4 {
 
 .search-list a:hover {
     background: linear-gradient(70deg, transparent, #deebff, #0065fc);
-    border: #deebff;
 }
 
 .search-list ul {
