@@ -218,7 +218,7 @@ h4 {
 
 .search-fa {
     border: 1px solid #deebff;
-    padding: 0.9375em;
+    padding: 15px;
     border-radius: 50%;
     background-color: #deebff;
     color: #0065fc;
@@ -231,7 +231,7 @@ h4 {
 }
 
 .family {
-    padding-left: 1.875em;
+    padding-left: 30px;
 }
 
 .search-info {
@@ -248,7 +248,7 @@ h4 {
 i.fas.fa-info {
     border: 1px solid lightgrey;
     border-radius: 50%;
-    padding: 0.31rem 0.53rem 0.31rem;
+    padding: 4.96px 8.48px 4.96px;
     color: #0065fc;
     font-size: 0.75rem;
     margin-right: 10px;
