@@ -4,13 +4,10 @@
     box-sizing: border-box;
 }
 
-html {
-    font-size: 16px;
-}
-
 body {
     margin: 0;
     width: 100%;
+    font-size: 16px;
     font-family: "Raleway", "sans-serif";
 }
 
@@ -41,12 +38,6 @@ h4 {
 
 .gray .fas.fa-star {
     color: lightgray;
-}
-
-.prices,
-.lower-prices {
-    color: #000;
-    font-weight: bold;
 }
 
 /* HEADER */
@@ -123,14 +114,6 @@ h4 {
     margin: 35px 10px;
 }
 
-#research {
-    width: 239px;
-    padding: 14px;
-    border: 1px solid #f2f2f2;
-    font-size: 16px;
-    font-weight: bold;
-}
-
 .search-marker {
     width: 52px;
     padding: 14px;
@@ -140,14 +123,19 @@ h4 {
     text-align: center;
 }
 
-.search-form .fa-search {
-    color: #fff;
+#research {
+    width: 239px;
+    padding: 14px;
+    border: 1px solid #f2f2f2;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .search-btn {
     padding: 16px;
     border: solid 0 #f2f2f2;
     background-color: #0065fc;
+    color: #fff;
     border-radius: 15px;
     position: relative;
     right: 10px;
@@ -173,9 +161,15 @@ h4 {
     font-size: 1.2rem;
 }
 
-.search-list {
-    margin-top: 12px;
+.search-list ul {
     margin-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.search-list li {
+    display: inline-block;
+    margin: 20px 5px 25px;
 }
 
 .search-list a {
@@ -184,10 +178,14 @@ h4 {
     color: #000;
     font-weight: bold;
     margin-left: 8px;
-    padding-right: 16px;
-    padding-left: 49px;
+    padding-right: 11px;
+    padding-left: 54px;
     border-radius: 30px;
     background-color: #fff;
+}
+
+.search-list a:hover {
+    background: linear-gradient(70deg, transparent, #deebff, #0065fc);
 }
 
 .search-list i {
@@ -202,23 +200,9 @@ h4 {
     left: -5px;
 }
 
-.search-list a:hover {
-    background: linear-gradient(70deg, transparent, #deebff, #0065fc);
-}
-
-.search-list ul {
-    padding-left: 10px;
-    margin-top: 10px;
-}
-
-.search-list li {
-    display: inline-block;
-    margin: 20px 5px 25px;
-}
-
 .search-fa {
     border: 1px solid #deebff;
-    padding: 0.9375em;
+    padding: 15px;
     border-radius: 50%;
     background-color: #deebff;
     color: #0065fc;
@@ -231,7 +215,7 @@ h4 {
 }
 
 .family {
-    padding-left: 1.875em;
+    padding-left: 30px;
 }
 
 .search-info {
@@ -241,17 +225,17 @@ h4 {
     margin-bottom: 25px;
 }
 
-.search-fa-info p {
-    margin-top: 0px;
-}
-
 i.fas.fa-info {
     border: 1px solid lightgrey;
     border-radius: 50%;
-    padding: 0.31rem 0.53rem 0.31rem;
+    padding: 4.96px 8.48px 4.96px;
     color: #0065fc;
     font-size: 0.75rem;
     margin-right: 10px;
+}
+
+.search-fa-info p {
+    margin-top: 0px;
 }
 
 /*---------aside popular----------*/
@@ -378,7 +362,6 @@ img.popular-image {
 .more {
     font-size: 1.1rem;
     font-weight: bold;
-    color: #000;
     margin: 20px;
 }
 /*-------activities--------*/
@@ -632,8 +615,6 @@ footer li {
     /*accomodations media (768px)*/
 
     .accomodations {
-        display: flex;
-        flex-direction: column;
         width: 100%;
     }
 
@@ -662,19 +643,15 @@ footer li {
     }
 
     .activities-places {
+        display: flex;
         width: 100%;
+        align-items: flex-start;
+        padding: 15px 5px 15px 20px;
     }
 
     .activities-XL {
         width: 95%;
         height: 330px;
-    }
-
-    .activities-places {
-        display: flex;
-        width: 100%;
-        align-items: flex-start;
-        padding: 15px 5px 15px 20px;
     }
 
     .activities-places a {
