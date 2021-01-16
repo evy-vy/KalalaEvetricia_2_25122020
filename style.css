@@ -7,6 +7,7 @@
 body {
     margin: 0;
     width: 100%;
+    max-width: 1920px;
     font-size: 16px;
     font-family: "Raleway", "sans-serif";
 }
@@ -471,6 +472,7 @@ footer li {
 
     .header-desktop a {
         padding: 1.875rem;
+        padding-top: 2.07rem;
     }
 
     .header-desktop-accomodations {
