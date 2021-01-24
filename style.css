@@ -117,7 +117,6 @@ h4 {
 .search-marker {
     width: 52px;
     padding: 14px;
-    border: solid 1px #f2f2f2;
     background-color: #f2f2f2;
     border-radius: 15px 0 0 15px;
     text-align: center;
@@ -181,7 +180,6 @@ h4 {
     padding-right: 11px;
     padding-left: 54px;
     border-radius: 30px;
-    background-color: #fff;
 }
 
 .search-list a:hover {
@@ -189,9 +187,8 @@ h4 {
 }
 
 .search-list i {
-    padding: 15px;
+    padding: 16px;
     color: #0065fc;
-    border: 1px solid #deebff;
     border-radius: 50%;
     background-color: #deebff;
     margin-right: 5px;
@@ -201,17 +198,23 @@ h4 {
 }
 
 .search-fa {
-    border: 1px solid #deebff;
     padding: 15px;
     border-radius: 50%;
-    background-color: #deebff;
     color: #0065fc;
     position: relative;
     left: 2px;
 }
 
 .fas.fa-child {
-    padding: 13px 18px 16px 18px;
+    padding: 16px 20px 16px 20px;
+}
+
+.fas.fa-heart {
+    padding: 16px 18px 16px 18px;
+}
+
+.fas.fa-dog {
+    padding: 16px 18px 16px 16px;
 }
 
 .family {
@@ -269,8 +272,6 @@ i.fas.fa-info {
 }
 
 .popular-list li {
-    display: flex;
-    justify-content: center;
     background-color: #fff;
     width: 90%;
     border-radius: 20px;
@@ -293,8 +294,6 @@ img.popular-image {
 }
 
 .popular-overlay {
-    display: flex;
-    flex-direction: column;
     padding: 0 20px;
     text-align: left;
 }
@@ -621,8 +620,6 @@ footer li {
     }
 
     .accomodations-list {
-        display: flex;
-        flex-wrap: wrap;
         width: 100%;
     }
 
