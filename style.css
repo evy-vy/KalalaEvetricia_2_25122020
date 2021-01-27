@@ -11,7 +11,6 @@ body {
     font-family: "Raleway", "sans-serif";
 }
 
-.header-list,
 .search-list,
 .popular-list,
 .accomodations-list,
@@ -42,49 +41,49 @@ h4 {
 
 /* HEADER */
 
-.header-desktop {
-    display: none;
+.header-container {
+    flex: 1 30%;
+    padding: 3px;
 }
 
-.header-top {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    padding-bottom: 0;
-    align-items: center;
+.header-logo {
+    padding-left: 1.2rem;
+    padding-top: 13px;
 }
 
-.header-nav ul {
+.header {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-}
-
-.header-nav li {
-    display: flex;
-    border-top: none;
-    border-bottom: 0;
-    width: 50%;
-}
-
-.header-nav-accomodations {
-    width: 100%;
-    padding: 15px;
-    text-align: center;
-    color: #0065fc;
-    border-bottom: 3px solid #0065fc;
-}
-
-.header-nav-activities {
-    width: 100%;
-    padding: 15px;
-    text-align: center;
-    color: #000;
-    border-bottom: 3px solid #f2f2f2;
+    flex-wrap: wrap;
 }
 
 .header-signup-btn {
     color: #0065fc;
     font-weight: bold;
+    padding: 15px;
+    padding-top: 35px;
+    text-align: center;
+    width: 150px;
+}
+
+.header-nav-accomodations {
+    padding: 15px;
+    text-align: center;
+    color: #0065fc;
+    border-bottom: 3px solid #0065fc;
+    width: 50%;
+    margin-left: auto;
+    padding-top: 30px;
+}
+
+.header-nav-activities {
+    padding: 15px;
+    text-align: center;
+    color: #000;
+    border-bottom: 3px solid #f2f2f2;
+    width: 50%;
+    padding-top: 35px;
 }
 
 /*--------section search--------- */
@@ -249,7 +248,7 @@ i.fas.fa-info {
 }
 
 .popular-top h3 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #000;
     display: flex;
     justify-content: space-between;
@@ -259,7 +258,7 @@ i.fas.fa-info {
 
 .fas.fa-chart-line {
 position: relative ;
-bottom: 40px;
+right: 30px;
 }
 
 .subtitle {
@@ -382,14 +381,6 @@ img.popular-image {
     margin: 0 18px 30px;
 }
 
-/*.activities-first {
-    width: 100%;
-}
-
-.activities-second {
-    width: 100%;
-}*/
-
 .activities-XL {
     width: 100%;
 }
@@ -446,47 +437,6 @@ footer li {
 /*------- MEDIA--------*/
 
 @media screen and (min-width: 447px) {
-    /*media header (447px)*/
-
-    .header {
-        display: none;
-    }
-
-    .header-desktop {
-        display: flex;
-        justify-content: space-between;
-        padding: 20px;
-        padding-bottom: 0;
-    }
-
-    .header-desktop ul {
-        display: flex;
-        list-style-type: none;
-        padding-left: 0;
-    }
-
-    .header-desktop li {
-        margin-right: 5px;
-    }
-
-    .header-desktop a {
-        padding: 1.875rem;
-        padding-top: 2.07rem;
-    }
-
-    .header-desktop-accomodations {
-        color: #0065fc;
-        border-top: 3px solid;
-    }
-
-    .header-desktop-activities {
-        color: #000;
-    }
-
-    .header-desktop-signup {
-        color: #0065fc;
-    }
-
     /*search media (447px)*/
 
     .search-form div {
@@ -605,6 +555,32 @@ footer li {
         width: 33.33%;
         padding: 0 30px 0 30px;
     }
+}
+
+@media screen and (min-width: 640px) {
+    .header-signup-btn {
+        order: 3;
+    }
+
+    .header-nav-accomodations {
+        width: 150px !important;
+        order: 1;
+        border-top: 3px solid #0065fc;
+        border-bottom: none;
+    }
+    
+
+    .header-nav-activities {
+        width: 150px !important;
+        order: 2;
+        border-bottom: none;
+        margin-left: 25px;
+    }
+
+    .header-container {
+        flex: inherit !important;
+    }
+
 }
 
 @media screen and (min-width: 768px) {
